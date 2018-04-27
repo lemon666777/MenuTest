@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/font_red"
+            android:alphabeticShortcut="r"
+            android:title="@string/red"/>
+        <item
+            android:id="@+id/font_green"
+            android:alphabeticShortcut="r"
+            android:title="@string/green"/>
+        <item
+            android:id="@+id/font_blue"
+            android:alphabeticShortcut="r"
+            android:title="@string/blue"/>
+    </group>
+
+</menu>

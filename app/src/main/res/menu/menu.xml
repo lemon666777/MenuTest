@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <item android:title="@string/menu_font_size">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/font_20"
+                    android:title="@string/font_20"/>
+                <item
+                    android:id="@+id/font_30"
+                    android:title="@string/font_30"/>
+                <item
+                    android:id="@+id/font_40"
+                    android:title="@string/font_40"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/plain_menu"
+        android:id="@+id/menu_plain_menu"
+        />
+
+    <item android:title="@string/TextColor">
+        <menu>
+            <!-- 定义一组普通菜单项 -->
+            <group android:checkableBehavior="single">
+                <!-- 定义三个菜单项 -->
+                <item android:id="@+id/font_red"
+                    android:title="@string/red"/>
+                <item android:id="@+id/font_green"
+                    android:title="@string/green"/>
+                <item android:id="@+id/font_blue"
+                    android:title="@string/blue"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

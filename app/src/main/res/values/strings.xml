@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">菜单</string>
+    <string name="test">Test</string>
+    <string name="font_10">小</string>
+    <string name="font_20">小</string>
+    <string name="font_30">中</string>
+    <string name="font_40">大</string>
+    <string name="red">红</string>
+    <string name="green">绿</string>
+    <string name="blue">蓝</string>
+    <string name="plain_menu">普通菜单项</string>
+    <string name="menu_font_size">字体大小</string>
+    <string name="TextColor">字体颜色</string>
+
+</resources>
